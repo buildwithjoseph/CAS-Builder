@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Hero } from './Hero';
-import { Quiz } from './Quiz';
-import { Results } from './Results';
+import { Hero } from './components/Hero';
+import { Quiz } from './components/Quiz';
+import { Results } from './components/Results';
 import { UserAnswers } from './types';
 
 type View = 'hero' | 'quiz' | 'results';
